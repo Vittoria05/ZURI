@@ -1,0 +1,25 @@
+.topnav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    position: fixed;
+    z-index: 1100;
+    top: 0px;
+    left: auto;
+    right: 0px;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+/*@media screen and (max-width: 1200px)
+.root1 {
+    max-width: 1440px!important;
+    padding-top: 100px!important;
+    width: 90%!important;
+} */
